@@ -1,7 +1,7 @@
 
 # Worker Ring Middleware
 
-Ring middleware which uses Worker to handle identical simultaneous requests.
+Ring middleware which uses [Worker](https://github.com/boxuk/worker) to handle identical simultaneous requests.
 
 ## Usage
 
@@ -18,6 +18,6 @@ Ring middleware which uses Worker to handle identical simultaneous requests.
 ## How It Works
 
 The middleware will (for GET requests only) check the URI and any parameters,
-and use these to pass to Worker to handle identical requests with the same
+and use these to pass to [Worker](https://github.com/boxuk/worker) to handle identical requests with the same
 process.
 

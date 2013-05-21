@@ -3,6 +3,10 @@
 
 Ring middleware which uses [Worker](https://github.com/boxuk/worker) to handle identical simultaneous requests.
 
+## Installation
+
+Available from [Clojars](https://clojars.org/boxuk/wrap-worker).
+
 ## Usage
 
 ```clojure
